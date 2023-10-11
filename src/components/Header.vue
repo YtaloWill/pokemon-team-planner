@@ -3,7 +3,7 @@
 
 <template>
 	<header>
-		<img alt="Pokemon logo" class="logo" src="src/assets/pokemon_logo.png" width="300" />
+		<img alt="Pokemon logo" class="logo" src="@/assets/pokemon_logo.png" width="300" />
 	</header>
 </template>
 

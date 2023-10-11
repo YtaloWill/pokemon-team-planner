@@ -4,7 +4,7 @@ const MAX_POKEMON_TEAM = 6;
 
 const EMPTY_POKEMON = {
 	name: 'Empty',
-	image: 'src/assets/pokemon_empty.png'
+	image: '@/assets/pokemon_empty.png'
 };
 
 export const useTeamStore = defineStore({
