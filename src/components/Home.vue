@@ -8,7 +8,7 @@ import CardPanel from './CardPanel.vue'
 import { getPokemon, getPokemonList } from '../data/PokemonAPI'
 
 const getCardInfo = async () => {
-	const pokemonBaseList = await getPokemonList(100000, 0)
+	const pokemonBaseList = await getPokemonList(20, 0)
 	for(let i = 0; i<pokemonBaseList.length;i++) {
 		const pokemonBase = pokemonBaseList[i]
 		const pokemonFull = await getPokemon(pokemonBase.url)
