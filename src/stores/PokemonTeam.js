@@ -1,10 +1,12 @@
 import { defineStore } from 'pinia';
 
+import pokemonEmptyImage from '@/assets/pokemon_empty.png'
+
 const MAX_POKEMON_TEAM = 6;
 
 const EMPTY_POKEMON = {
 	name: 'Empty',
-	image: 'src/assets/pokemon_empty.png'
+	image: pokemonEmptyImage
 };
 
 export const useTeamStore = defineStore({
